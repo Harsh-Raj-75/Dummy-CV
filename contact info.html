@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Info</title>
+</head>
+
+<body>
+  <center>
+    <h1>Contact Info</h1>
+  </center>
+  <h3>House Address</h3>
+  <p>House no.XXX Shalimar Bagh, New Delhi</p>
+  <p>Opp. Good Day Bakers</p>
+  <p>O7 Street </p>
+  <hr size=3 noshade />
+  <h3>Phone no.</h3>
+  <p>82834XXXXX</p>
+  <p>98945XXXXX</p>
+  <hr size=3 noshade />
+  <h3>Email ID</h3>
+  <a href="https://mail.google.com/mail/u/0/#inbox">My Email Address</a>
+  <hr size=2 noshade>
+  <h3>User Details :-</h3>
+  <form class="form-example" action="mailto:junior@gmail.com" method="post" enctype="text/plain">
+    <label for="Name">Name :&nbsp</label>
+    <input type="text" name="Name" value="" required maxlength="28" size="10">
+    <br>
+    <br>
+    <label for="Email">Email :&nbsp</label>
+    <input type="email" name="Email" value="" required>
+    <br>
+    <br>
+    <label for="password">Password :&nbsp</label>
+    <input type="password" name="password" value="" required min="8">
+    <br>
+    <br>
+    <label for="Select File">Select File :&nbsp</label>
+    <input type="file" name="File" value="">
+    <br>
+    <br>
+    <fieldset>
+      <legend>Choose your suitable language :</legend>
+      <div><input type="radio" name="language" value="">
+        <label for="">English</label>
+      </div>
+      <div>
+        <input type="radio" name="language" value="" checked>
+        <label for="">Hindi</label>
+      </div>
+      <div class="">
+        <input type="radio" name="language" value="">
+        <label for="">French</label>
+      </div>
+    </fieldset>
+    <br>
+    <label for="Date of Birth">Date of Birth :&nbsp</label>
+    <input type="date" name="Date" value="">
+    <br>
+    <br>
+    <label for="">Would you like to subscribe to our newsletter and notification ?</label>
+    <input type="checkbox" name="notification" value="">
+    <br>
+    <br>
+    <input type="submit" name="submit" value="submit" requireds>
+    <br>
+    <br>
+    <label for="feedback">Feedback :&nbsp</label>
+    <br>
+    <textarea name="feedback" rows="7" cols="40"></textarea>
+  </form>
+
+</body>
+
+</html>
